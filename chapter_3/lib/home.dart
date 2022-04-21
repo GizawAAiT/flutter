@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
     const Card3(),
     const stack1(),
     const stack2(),
-    Container(color: Color.fromARGB(255, 25, 128, 42))
+    Container(color: const Color.fromARGB(255, 25, 128, 42))
   ];
 // 9
   void _onItemTapped(int index) {
