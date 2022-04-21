@@ -5,12 +5,10 @@ class stackDemo extends StatefulWidget {
 
   @override
   State<stackDemo> createState() => _stackDemoState();
-  
 }
 
 class _stackDemoState extends State<stackDemo> {
   @override
-  int curr=0;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
